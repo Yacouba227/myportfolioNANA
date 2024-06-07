@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin: auto;
+    width: 60%;
+}
+.firstcontent{
+    background-color: rgb(209, 192, 172);
+    display: flex;
+    justify-content: space-around;
+    width: 86%;
+    padding: 15px;
+    border-radius: 12px;
+}
+.testcontent h1{
+color: rgb(86, 52, 12);
+}
+.testcontent h3{
+    color: rgb(86, 52, 12);
+    }
+.image{
+width: 30%;
+}
+.image img{
+    width: 180PX;
+    border-radius: 50%;
+    height: 180PX;
+}
+.testcontent{
+    width: 60%;
+}
+.front{
+    margin-bottom: -1rem;
+}
+/* secondcontent */
+.secondcontent{
+    width: 86%;
+    padding: 15px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.firstinfo{
+width: 58%;
+}
+.secondinfo{
+width: 40%;
+}
+.information{
+    background-color: rgb(209, 192, 172);
+    padding: 18px 40px 30px;
+    border-radius: 12px;
+    color:  rgb(86, 52, 12);
+}
+.contact i{
+    padding: 8px;
+}
+.contact a{
+    text-decoration: none;
+    color: #000;
+}
+.skills{
+    background-color:rgb(209, 192, 172);
+    padding: 18px 40px 30px;
+    border-radius: 12px;
+    margin-top: 2%;
+    color:  rgb(86, 52, 12);
+}
+.logocontent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logocontent i{
+    font-size: 32px;
+    color: rgb(21, 12, 3);
+}
+.bar{
+width: 80%;
+display: flex;
+justify-content: start;
+}
+.divmere{
+    height: 12px;
+    width: 97%;
+    background-color: rgb(253, 195, 123);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 12PX;
+}
+.divfille{
+    height: 12px;
+    width: 90%;
+    background-color:  rgb(86, 52, 12) ;
+    border-radius: 12%;
+}.divfille1{
+    height: 12px;
+    width: 85%;
+    background-color:  rgb(86, 52, 12);
+    border-radius: 12%;
+}.divfille2{
+    height: 12px;
+    width: 95%;
+    background-color:  rgb(86, 52, 12);
+    border-radius: 12%;
+}
+.yac{
+    background-color:rgb(209, 192, 172);
+    padding: 18px 40px 30px;
+    border-radius: 12px;
+}
+.yac h3{
+    color:rgb(86, 52, 12) ;
+}
+.nana{
+    margin-top: 3%;
+    background-color: rgb(86, 52, 12);
+    padding: 18px 40px 30px;
+    border-radius: 12px;
+}
+.nana h3{
+    color:  rgb(253, 195, 123);
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.iconsname{
+    text-align: center;
+}
+.iconsname i{
+   font-size: 28px;
+}
+
+
+@media screen and (max-width: 425px) {
+   .container{
+    width: 100%;
+   }
+   .firstcontent{
+    displaY: flex;
+    flex-direction: column;
+    width:89%;
+    text-align: center;
+   }
+   .testcontent {
+ width: 100%;
+   }
+   .image{
+    width: 100%;
+   }
+   .secondcontent{
+    displaY: flex;
+    flex-direction: column;
+   width: 98%;
+   margin-top: 2%;
+   padding: 0;
+   }
+   .firstinfo{
+    width: 98%;
+    }
+    .secondinfo{
+    width:98%;
+    }
+    .yac{
+        margin-top: 2%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .container{
+     width: 90%;
+    }
+    .nana{
+        margin-top: 3%;
+        background-color: rgb(86, 52, 12);
+        padding: 12px 22px 12px;
+        border-radius: 12px;
+    }
+    .iconsname i{
+        font-size: 18px;
+     }
+     .icons{
+        display: flex;
+        justify-content: space-between;
+    }
+   }
